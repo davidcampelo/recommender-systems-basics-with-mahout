@@ -9,7 +9,7 @@ import org.apache.mahout.cf.taste.model.DataModel;
 
 public class SimpleDataModel {
 
-	private static String PATH = "./main/java/data/";
+	private static String PATH = "src/main/resources/";
 	
 	private static DataModel createModel(String fileName) throws IOException {
 		// Data model
